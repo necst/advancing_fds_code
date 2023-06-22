@@ -1,0 +1,18 @@
+{
+    "campaign_name": "st_th",
+    "victims_number_2014_15": 3000,
+    "strategies": [
+        {
+            "percentage": 100,
+            "min_frauds": 7,
+            "max_frauds": 14,
+            "min_amount": 2000,
+            "max_amount": 8000,
+            "min_victim_transactions": 7,
+            "total_amount": 50000,
+            "duration_h": 168,
+            "strategy": "rand_gauss",
+            "hijack": true
+        }
+    ]
+}

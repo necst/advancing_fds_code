@@ -1,0 +1,18 @@
+{
+    "campaign_name": "lt_th",
+    "victims_number_2014_15": 1500,
+    "strategies": [
+        {
+            "percentage": 100,
+            "min_frauds": 28,
+            "max_frauds": 112,
+            "min_amount": 200,
+            "max_amount": 1000,
+            "min_victim_transactions": 7,
+            "total_amount": 50000,
+            "duration_h": 672,
+            "strategy": "rand_gauss",
+            "hijack": true
+        }
+    ]
+}

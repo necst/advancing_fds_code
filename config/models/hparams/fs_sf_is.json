@@ -1,0 +1,42 @@
+{
+    "logistic_regression": {
+        "penalty": "l1",
+        "tol": 0.1,
+        "C": 100.0,
+        "class_weight": "balanced",
+        "solver": "saga",
+        "max_iter": 500
+    },
+    "random_forest": {
+        "n_estimators": 32,
+        "max_depth": 5,
+        "class_weight": "balanced",
+        "criterion": "gini",
+        "min_samples_split": 2
+    },
+    "support_vector_machine": {
+        "penalty": "l2",
+        "loss": "squared_hinge",
+        "dual": false,
+        "class_weight": "balanced",
+        "tol": 0.1,
+        "C": 1.0,
+        "max_iter": 7500
+    },
+    "xgboost": {
+        "max_depth": 2,
+        "learning_rate": 0.1,
+        "booster": "gbtree",
+        "gamma": 10.0,
+        "subsample": 1.0,
+        "n_estimators": 80
+    },
+    "neural_network": {
+        "epochs": 15,
+        "batch_size": 256,
+        "fl_neurons": 64,
+        "sl_neurons": 64,
+        "activation_funct": "relu",
+        "dropout_rate": 0.3
+    }
+}

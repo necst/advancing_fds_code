@@ -5,7 +5,8 @@ paper *"Advancing Fraud Detection Systems through Online Learning"* [[1]](#refer
 
 >[!IMPORTANT]
 > This code requires a banking dataset that, for privacy reasons, we cannot share with the scientific community.
-> The dataset is characterized by the following features: Amount, IBAN, IBAN\_CC, 
+> The dataset is characterized by the following features: TransactionID, Amount, IBAN, IBAN\_CC, IP, IDSessione, Timestamp,UserID, confirm_SMS, CC\_ASN.
+
 
 >[!NOTE]
 > If you use this code, please include the following citation:
@@ -41,7 +42,7 @@ The rapid increase in digital transactions has led to a consequential surge in f
 This repository requires `Python >=3.9`. Create a virtual environment with `$ python3.9 -m venv .venv`, activate the environment with `$ source .venv/bin/activate` and install requirements with `$ pip install -r requirements.txt`.
 
 ### Dataset Generation
-[!NOTE]
+> [!NOTE]
 > Differently than the paper, in the code, fraud strategies have different names:  
 > SHORT\_TERM (CODE) --> MEDIUM\_TERM (PAPER)  
 > SINGLE\_FRAUD (CODE) --> SHORT\_TERM (PAPER)    
